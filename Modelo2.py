@@ -1,15 +1,4 @@
-'''
-Dashboard de Análisis de Tráfico (HTML + Navegador)
-Este script carga datos desde SQLite, genera gráficas con Matplotlib y Seaborn,
-y construye un dashboard responsivo en HTML/CSS que se abre en el navegador predeterminado.
 
-Motivo de cambio (macOS):
-- Para evitar errores de compatibilidad con Tcl/Tk en macOS.
-- No requiere tkinter ni tkhtmlview.
-
-Dependencias (instalar con pip si faltan):
-    pip install pandas matplotlib seaborn scikit-learn
-'''
 import sqlite3
 import webbrowser
 from pathlib import Path
